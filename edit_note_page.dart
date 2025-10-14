@@ -1,10 +1,9 @@
-// lib/edit_note_page.dart
+
 
 import 'package:flutter/material.dart';
 import 'models/note.dart';
 
 class EditNotePage extends StatefulWidget {
-  // Принимает существующую заметку для редактирования. Если null — создается новая.
   final Note? existing;
 
   const EditNotePage({super.key, this.existing});
@@ -28,11 +27,9 @@ class _EditNotePageState extends State<EditNotePage> {
   }
 
   void _save() {
-    // Проверяем, прошли ли все поля формы валидацию
     if (!_formKey.currentState!.validate()) {
       return;
     }
-    // Сохраняем значения из полей формы в переменные
     _formKey.currentState!.save();
 
     final result = _isEdit
@@ -43,7 +40,6 @@ class _EditNotePageState extends State<EditNotePage> {
             body: _body,
           );
 
-    // Возвращаем результат (новую или обновленную заметку) на предыдущий экран
     Navigator.pop(context, result);
   }
 
@@ -82,7 +78,7 @@ class _EditNotePageState extends State<EditNotePage> {
                 },
                 onSaved: (v) => _body = v?.trim() ?? '',
               ),
-              const Spacer(), // Занимает всё свободное место
+              const Spacer(),
               FilledButton.icon(
                 onPressed: _save,
                 icon: const Icon(Icons.check),
@@ -90,7 +86,7 @@ class _EditNotePageState extends State<EditNotePage> {
                 style: FilledButton.styleFrom(
                   minimumSize: const Size.fromHeight(
                     50,
-                  ), // Кнопка на всю ширину
+                  ), 
                 ),
               ),
             ],
@@ -100,3 +96,4 @@ class _EditNotePageState extends State<EditNotePage> {
     );
   }
 }
+
