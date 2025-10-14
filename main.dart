@@ -1,4 +1,4 @@
-// lib/main.dart
+
 
 import 'package:flutter/material.dart';
 import 'models/note.dart';
@@ -30,7 +30,6 @@ class NotesPage extends StatefulWidget {
 }
 
 class _NotesPageState extends State<NotesPage> {
-  // Исходный список всех заметок
   final List<Note> _notes = [
     Note(
       id: '1',
@@ -45,19 +44,15 @@ class _NotesPageState extends State<NotesPage> {
     ),
   ];
 
-  // Список для отображения (может быть отфильтрован)
   List<Note> _filteredNotes = [];
 
-  // Состояние для управления отображением поиска
   bool _isSearching = false;
   final TextEditingController _searchController = TextEditingController();
 
   @override
   void initState() {
     super.initState();
-    // Изначально отображаем все заметки
     _filteredNotes = _notes;
-    // Добавляем слушатель для поля поиска
     _searchController.addListener(_filterNotes);
   }
 
@@ -68,7 +63,6 @@ class _NotesPageState extends State<NotesPage> {
     super.dispose();
   }
 
-  // Метод для фильтрации заметок
   void _filterNotes() {
     final query = _searchController.text.toLowerCase();
     setState(() {
@@ -79,17 +73,16 @@ class _NotesPageState extends State<NotesPage> {
     });
   }
 
-  // Переключение между обычным AppBar и поиском
   void _toggleSearch() {
     setState(() {
       _isSearching = !_isSearching;
       if (!_isSearching) {
-        _searchController.clear(); // Очистка поиска при выходе
+        _searchController.clear(); 
       }
     });
   }
 
-  // Переход на экран для добавления новой заметки
+
   Future<void> _addNote() async {
     final newNote = await Navigator.push<Note>(
       context,
@@ -98,12 +91,12 @@ class _NotesPageState extends State<NotesPage> {
     if (newNote != null) {
       setState(() {
         _notes.add(newNote);
-        _filterNotes(); // Обновляем отфильтрованный список
+        _filterNotes(); 
       });
     }
   }
 
-  // Переход на экран для редактирования существующей заметки
+
   Future<void> _edit(Note note) async {
     final updated = await Navigator.push<Note>(
       context,
@@ -113,26 +106,26 @@ class _NotesPageState extends State<NotesPage> {
       setState(() {
         final i = _notes.indexWhere((n) => n.id == updated.id);
         if (i != -1) _notes[i] = updated;
-        _filterNotes(); // Обновляем отфильтрованный список
+        _filterNotes(); 
       });
     }
   }
 
-  // Удаление заметки
+
   void _delete(Note note) {
     final noteId = note.id;
     setState(() {
-      // Удаляем из обоих списков, чтобы избежать ошибок
+
       _notes.removeWhere((n) => n.id == noteId);
       _filteredNotes.removeWhere((n) => n.id == noteId);
     });
-    // Показываем уведомление
+
     ScaffoldMessenger.of(
       context,
     ).showSnackBar(const SnackBar(content: Text('Заметка удалена')));
   }
 
-  // Создание обычного AppBar
+
   AppBar _buildAppBar() {
     return AppBar(
       title: const Text('Simple Notes'),
@@ -142,7 +135,7 @@ class _NotesPageState extends State<NotesPage> {
     );
   }
 
-  // Создание AppBar с полем поиска
+
   AppBar _buildSearchAppBar() {
     return AppBar(
       leading: IconButton(
@@ -211,3 +204,4 @@ class _NotesPageState extends State<NotesPage> {
     );
   }
 }
+
