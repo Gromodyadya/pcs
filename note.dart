@@ -1,4 +1,4 @@
-// lib/models/note.dart
+
 
 class Note {
   final String id;
@@ -11,8 +11,7 @@ class Note {
     required this.body,
   });
 
-  // Метод для создания копии объекта с возможностью изменения полей.
-  // Это полезно для сохранения иммутабельности (неизменяемости) объектов.
+
   Note copyWith({String? title, String? body}) {
     return Note(
       id: id,
@@ -20,4 +19,5 @@ class Note {
       body: body ?? this.body,
     );
   }
+
 }
