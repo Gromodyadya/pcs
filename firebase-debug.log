@@ -1,0 +1,45 @@
+[debug] [2025-11-15T11:24:32.272Z] ----------------------------------------------------------------------
+[debug] [2025-11-15T11:24:32.276Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aleks\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:create firebase-notes-app1 --json
+[debug] [2025-11-15T11:24:32.277Z] CLI Version:   14.25.0
+[debug] [2025-11-15T11:24:32.277Z] Platform:      win32
+[debug] [2025-11-15T11:24:32.277Z] Node Version:  v22.11.0
+[debug] [2025-11-15T11:24:32.277Z] Time:          Sat Nov 15 2025 14:24:32 GMT+0300 (Москва, стандартное время)
+[debug] [2025-11-15T11:24:32.278Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-11-15T11:24:32.285Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-11-15T11:24:32.285Z] > authorizing via signed-in user (drun337@gmail.com)
+[debug] [2025-11-15T11:24:32.290Z] Checked if tokens are valid: true, expires at: 1763209386555
+[debug] [2025-11-15T11:24:32.290Z] Checked if tokens are valid: true, expires at: 1763209386555
+[debug] [2025-11-15T11:24:32.291Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2025-11-15T11:24:32.291Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"firebase-notes-app1","name":"firebase-notes-app1"}
+[debug] [2025-11-15T11:24:33.065Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2025-11-15T11:24:33.065Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/create_project.global.6056069156597191993"}
+[debug] [2025-11-15T11:24:33.066Z] Checked if tokens are valid: true, expires at: 1763209386555
+[debug] [2025-11-15T11:24:33.066Z] Checked if tokens are valid: true, expires at: 1763209386555
+[debug] [2025-11-15T11:24:33.066Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.6056069156597191993 [none]
+[debug] [2025-11-15T11:24:33.311Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.6056069156597191993 200
+[debug] [2025-11-15T11:24:33.311Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.6056069156597191993 {"name":"operations/create_project.global.6056069156597191993"}
+[debug] [2025-11-15T11:24:33.813Z] [Project Creation Poller] Retrying task index 0
+[debug] [2025-11-15T11:24:33.813Z] Checked if tokens are valid: true, expires at: 1763209386555
+[debug] [2025-11-15T11:24:33.813Z] Checked if tokens are valid: true, expires at: 1763209386555
+[debug] [2025-11-15T11:24:33.813Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.6056069156597191993 [none]
+[debug] [2025-11-15T11:24:34.153Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.6056069156597191993 200
+[debug] [2025-11-15T11:24:34.153Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.6056069156597191993 {"name":"operations/create_project.global.6056069156597191993"}
+[debug] [2025-11-15T11:24:35.160Z] [Project Creation Poller] Retrying task index 0
+[debug] [2025-11-15T11:24:35.160Z] Checked if tokens are valid: true, expires at: 1763209386555
+[debug] [2025-11-15T11:24:35.160Z] Checked if tokens are valid: true, expires at: 1763209386555
+[debug] [2025-11-15T11:24:35.160Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.6056069156597191993 [none]
+[debug] [2025-11-15T11:24:35.409Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.6056069156597191993 200
+[debug] [2025-11-15T11:24:35.410Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.6056069156597191993 {"name":"operations/create_project.global.6056069156597191993","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"297895279432","projectId":"firebase-notes-app1","lifecycleState":"ACTIVE","name":"firebase-notes-app1","createTime":"2025-11-15T11:24:34.397293Z"}}
+[debug] [2025-11-15T11:24:35.410Z] Checked if tokens are valid: true, expires at: 1763209386555
+[debug] [2025-11-15T11:24:35.410Z] Checked if tokens are valid: true, expires at: 1763209386555
+[debug] [2025-11-15T11:24:35.411Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/firebase-notes-app1:addFirebase [none]
+[debug] [2025-11-15T11:24:36.656Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/firebase-notes-app1:addFirebase 403
+[debug] [2025-11-15T11:24:36.656Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/firebase-notes-app1:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-11-15T11:24:36.657Z] Request to https://firebase.googleapis.com/v1beta1/projects/firebase-notes-app1:addFirebase had HTTP Error: 403, The caller does not have permission
+[debug] [2025-11-15T11:24:36.946Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/firebase-notes-app1:addFirebase had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\aleks\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\aleks\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:322:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.
