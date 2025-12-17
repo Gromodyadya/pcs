@@ -37,15 +37,20 @@
 
 ## Скриншоты экранов
 <img width="374" height="817" alt="image" src="https://github.com/user-attachments/assets/17af4113-0391-4b18-9ce1-ee1f952cb3ef" />
+
 <img width="372" height="818" alt="image" src="https://github.com/user-attachments/assets/4c780dfa-d7c3-455b-aa3a-709d49b7c086" />
+
 <img width="375" height="818" alt="image" src="https://github.com/user-attachments/assets/edca0f27-df2e-4524-ad8e-7d504cab2117" />
+
 <img width="374" height="815" alt="image" src="https://github.com/user-attachments/assets/9c1b258a-ec90-4671-b05a-98705f5cebcc" />
+
 <img width="371" height="812" alt="image" src="https://github.com/user-attachments/assets/7bb2753d-ea98-4481-9129-5932a4bc8947" />
+
 <img width="376" height="820" alt="image" src="https://github.com/user-attachments/assets/a244f73a-8973-4df4-bfba-68fb0f739dae" />
+
 <img width="377" height="815" alt="image" src="https://github.com/user-attachments/assets/5a5833c9-4271-449c-b2eb-0b60656a2ae5" />
-<img src="https://github.com/user-attachments/assets/23263b94-8bae-42fb-8c27-8d48b7e8bd25" width="800" />
 
-
+<img src="(https://github.com/user-attachments/assets/dfff2e1c-61e4-40c4-a286-5873e1dd95e9)" width="800" />
 
 ---
 
