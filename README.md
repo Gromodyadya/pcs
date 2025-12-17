@@ -43,7 +43,7 @@
 <img width="371" height="812" alt="image" src="https://github.com/user-attachments/assets/7bb2753d-ea98-4481-9129-5932a4bc8947" />
 <img width="376" height="820" alt="image" src="https://github.com/user-attachments/assets/a244f73a-8973-4df4-bfba-68fb0f739dae" />
 <img width="377" height="815" alt="image" src="https://github.com/user-attachments/assets/5a5833c9-4271-449c-b2eb-0b60656a2ae5" />
-![Desktop 2025-12-17 17-55-40](https://github.com/user-attachments/assets/9901ca6c-da69-4b69-ad6a-d0a3435e4e55)
+![Image](https://github.com/user-attachments/assets/23263b94-8bae-42fb-8c27-8d48b7e8bd25)
 
 
 
