@@ -16,7 +16,6 @@ class _NotesPageState extends State<NotesPage> {
   void initState() {
     super.initState();
     final uid = supabase.auth.currentUser!.id;
-    // Realtime поток заметок только для текущего пользователя
     _notesStream = supabase
         .from('notes')
         .stream(primaryKey: ['id'])
@@ -24,7 +23,6 @@ class _NotesPageState extends State<NotesPage> {
         .order('created_at', ascending: false);
   }
 
-  // Создание
   Future<void> _createNote(String title, String content) async {
     await supabase.from('notes').insert({
       'title': title,
@@ -33,7 +31,6 @@ class _NotesPageState extends State<NotesPage> {
     });
   }
 
-  // Обновление
   Future<void> _updateNote(String id, String title, String content) async {
     await supabase.from('notes').update({
       'title': title,
@@ -42,12 +39,10 @@ class _NotesPageState extends State<NotesPage> {
     }).eq('id', id);
   }
 
-  // Удаление
   Future<void> _deleteNote(String id) async {
     await supabase.from('notes').delete().eq('id', id);
   }
 
-  // Универсальный диалог для добавления и правки
   void _openNoteDialog({String? id, String? initialTitle, String? initialContent}) {
     final titleCtrl = TextEditingController(text: initialTitle);
     final contentCtrl = TextEditingController(text: initialContent);
@@ -136,4 +131,5 @@ class _NotesPageState extends State<NotesPage> {
       ),
     );
   }
+
 }
