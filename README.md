@@ -52,25 +52,31 @@ service cloud.firestore {
 3. **minSdkVersion:** Приложение не запускалось на Android. В файле `android/app/build.gradle` параметр был изменен на `23`.
 4. **Телефон не подключался:** Устройство не определялось через USB. Проблема решена сменой режима USB на "Передача файлов" и активацией "Отладки по USB".
 
-### 6. Контрольные задания (Скриншоты)
+### 6. Скриншоты
 
-1. **Настроенный проект Firebase (Firestore с коллекцией notes):**
-   ![Скриншот 1](path/to/screenshot1.png)
+1. **Настроенный проект Firebase:**
+  <img width="1280" height="694" alt="image" src="https://github.com/user-attachments/assets/f7efb2eb-237d-47f0-8cb6-6e7c97ac9635" />
+
 
 2. **Запущенное приложение (пустой список):**
-   ![Скриншот 2](path/to/screenshot2.png)
+   <img width="575" height="1280" alt="image" src="https://github.com/user-attachments/assets/5971f98b-4324-476e-a75b-63f544a4663b" />
 
-3. **Скриншот после добавления заметки:**
-   ![Скриншот 3](path/to/screenshot3.png)
 
-4. **Окно редактирования заметки:**
-   ![Скриншот 4](path/to/screenshot4.png)
+3. **Скриншоты добавления заметки:**
+   <img width="575" height="1280" alt="image" src="https://github.com/user-attachments/assets/44242031-6515-4d44-b395-2c7c70674085" />
+   <img width="575" height="1280" alt="image" src="https://github.com/user-attachments/assets/03781557-9aba-4fc9-8292-3257d92c18ab" />
+   <img width="1280" height="565" alt="image" src="https://github.com/user-attachments/assets/fecc6ce9-ec16-4fdd-ad94-02f4bf066534" />
 
-5. **Список после удаления элемента:**
-   ![Скриншот 5](path/to/screenshot5.png)
 
----
-**Вывод:** В ходе работы были освоены навыки интеграции Flutter с Backend-as-a-Service (BaaS) платформой Firebase, реализованы все базовые операции CRUD и изучены основы безопасности облачных баз данных.
-```
+4. **Окно редактирования заметки и после редактирования:**
+   <img width="575" height="1280" alt="image" src="https://github.com/user-attachments/assets/87d4eaf0-cf88-4585-981d-1dda7b0128b9" />
+   <img width="575" height="1280" alt="image" src="https://github.com/user-attachments/assets/2a80c3d4-20ba-4bd4-b408-852e427a2a0b" />
+   <img width="1280" height="562" alt="image" src="https://github.com/user-attachments/assets/1ae1f3ca-722f-4cdd-8144-bb762919f072" />
 
----
+
+5. **Список до и после удаления элемента:**
+   <img width="575" height="1280" alt="image" src="https://github.com/user-attachments/assets/d0641f9a-ce03-495c-b599-dcca293d586d" />
+   <img width="1280" height="290" alt="image" src="https://github.com/user-attachments/assets/8c144228-5319-49a0-8327-03fe1fcc5897" />
+   <img width="575" height="1280" alt="image" src="https://github.com/user-attachments/assets/5d934406-5f70-44aa-981e-7efdf5419a30" />
+   <img width="1280" height="278" alt="image" src="https://github.com/user-attachments/assets/c3544f62-fa76-4b1e-994a-6b1fe7febc8c" />
+
