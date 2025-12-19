@@ -40,49 +40,11 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBwNBRv9QLBpRY7ONJUFp0BhgU8EwIHxSo',
-    appId: '1:836718759830:web:f3799f0519d7845478d7b7',
-    messagingSenderId: '836718759830',
-    projectId: 'farebase-notes-alekslylin',
-    authDomain: 'farebase-notes-alekslylin.firebaseapp.com',
-    storageBucket: 'farebase-notes-alekslylin.firebasestorage.app',
-    measurementId: 'G-ZGLLX4NGHS',
-  );
 
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAyjNy_IjRuocUwP-DEHSuTqbbjaQ1mkzo',
-    appId: '1:836718759830:android:6fb98f7aec3fef8478d7b7',
-    messagingSenderId: '836718759830',
-    projectId: 'farebase-notes-alekslylin',
-    storageBucket: 'farebase-notes-alekslylin.firebasestorage.app',
+  static const FirebaseOptions android = FirebaseOptions( /// Скрыл все данные
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
   );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDCABT6-lGVdBljaELWBLEop-jP3HZKV8w',
-    appId: '1:836718759830:ios:189f887a20db8b6478d7b7',
-    messagingSenderId: '836718759830',
-    projectId: 'farebase-notes-alekslylin',
-    storageBucket: 'farebase-notes-alekslylin.firebasestorage.app',
-    iosBundleId: 'com.example.firebaseNotesApp',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDCABT6-lGVdBljaELWBLEop-jP3HZKV8w',
-    appId: '1:836718759830:ios:189f887a20db8b6478d7b7',
-    messagingSenderId: '836718759830',
-    projectId: 'farebase-notes-alekslylin',
-    storageBucket: 'farebase-notes-alekslylin.firebasestorage.app',
-    iosBundleId: 'com.example.firebaseNotesApp',
-  );
-
-  static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyBwNBRv9QLBpRY7ONJUFp0BhgU8EwIHxSo',
-    appId: '1:836718759830:web:ba9a0c8012590ea478d7b7',
-    messagingSenderId: '836718759830',
-    projectId: 'farebase-notes-alekslylin',
-    authDomain: 'farebase-notes-alekslylin.firebaseapp.com',
-    storageBucket: 'farebase-notes-alekslylin.firebasestorage.app',
-    measurementId: 'G-8S39E7LFW0',
-  );
-}
