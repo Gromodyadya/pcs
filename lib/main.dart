@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-import 'notes_page.dart'; // Импортируем второй файл
+import 'notes_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // TODO: ВСТАВЬ СВОИ ДАННЫЕ ТУТ
   await Supabase.initialize(
     url: 'секрет',
     anonKey: 'секрет',
@@ -45,13 +44,12 @@ class _AuthGateState extends State<AuthGate> {
 
   @override
   Widget build(BuildContext context) {
-    // Этот виджет автоматически переключает экраны при входе/выходе
     return StreamBuilder<AuthState>(
       stream: Supabase.instance.client.auth.onAuthStateChange,
       builder: (context, snapshot) {
         final session = snapshot.data?.session;
         if (session != null) {
-          return const NotesPage(); // Если вошли — показываем заметки
+          return const NotesPage();
         }
 
         return Scaffold(
@@ -99,7 +97,6 @@ class _AuthGateState extends State<AuthGate> {
     );
   }
 
-  // Логика входа
   Future<void> _signIn() async {
     setState(() => _isLoading = true);
     try {
@@ -116,7 +113,6 @@ class _AuthGateState extends State<AuthGate> {
     }
   }
 
-  // Логика регистрации
   Future<void> _signUp() async {
     setState(() => _isLoading = true);
     try {
@@ -144,4 +140,5 @@ class _AuthGateState extends State<AuthGate> {
       SnackBar(content: Text(msg), backgroundColor: Colors.red),
     );
   }
+
 }
