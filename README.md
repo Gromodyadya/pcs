@@ -52,13 +52,9 @@
 
 ---
 
-Для оформления отчета тебе нужно не просто вставить картинки, а подписать их правильными техническими терминами из методички. Вот готовые описания для твоих скриншотов:
+### Описания и скриншоты
 
----
-
-### Описания к скриншотам
-
-**Рис. 1. Настройка базы данных в Supabase Dashboard.**
+**1. Настройка базы данных в Supabase Dashboard.**
 
 <img width="1280" height="472" alt="image" src="https://github.com/user-attachments/assets/c24bb68a-cacd-49ac-ad38-84ca948f34c6" />
 
@@ -66,11 +62,11 @@
 
 <img width="1616" height="851" alt="image" src="https://github.com/user-attachments/assets/4c865921-bb62-4286-bbd2-ea3dce9a00f3" />
 
-**Рис. 3. Экран аутентификации в приложении.**
+**2. Экран аутентификации в приложении.**
 
 <img width="575" height="1280" alt="image" src="https://github.com/user-attachments/assets/aff4ddd6-0ad0-4782-baa4-7cd3207b778c" />
 
-**Рис. 4. Работа с пустым списком и реактивное добавление данных.**
+**3. Работа с пустым списком и реактивное добавление данных.**
 
 <img width="575" height="1280" alt="image" src="https://github.com/user-attachments/assets/4f7b1e83-8740-4025-8e61-53390c574589" />
 
@@ -78,7 +74,7 @@
 
 <img width="575" height="1280" alt="image" src="https://github.com/user-attachments/assets/971cedc1-9e8f-4878-9180-a76c0cf3af8b" />
 
-**Рис. 5. Реализация CRUD-операций: редактирование и удаление.**
+**4. Реализация CRUD-операций: редактирование и удаление.**
 
 <img width="575" height="1280" alt="image" src="https://github.com/user-attachments/assets/dddd6e73-9ccc-4a2c-b5a7-06f289043fea" />
 
