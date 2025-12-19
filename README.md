@@ -59,26 +59,26 @@ service cloud.firestore {
   <img width="1280" height="694" alt="image" src="https://github.com/user-attachments/assets/f7efb2eb-237d-47f0-8cb6-6e7c97ac9635" />
 
 
-3. **Запущенное приложение (пустой список):**
+2. **Запущенное приложение (пустой список):**
    
    <img width="575" height="1280" alt="image" src="https://github.com/user-attachments/assets/5971f98b-4324-476e-a75b-63f544a4663b" />
 
 
-4. **Скриншоты добавления заметки:**
+3. **Скриншоты добавления заметки:**
    
    <img width="575" height="1280" alt="image" src="https://github.com/user-attachments/assets/44242031-6515-4d44-b395-2c7c70674085" />
    <img width="575" height="1280" alt="image" src="https://github.com/user-attachments/assets/03781557-9aba-4fc9-8292-3257d92c18ab" />
    <img width="1280" height="565" alt="image" src="https://github.com/user-attachments/assets/fecc6ce9-ec16-4fdd-ad94-02f4bf066534" />
 
 
-6. **Окно редактирования заметки и после редактирования:**
+4. **Окно редактирования заметки и после редактирования:**
    
    <img width="575" height="1280" alt="image" src="https://github.com/user-attachments/assets/87d4eaf0-cf88-4585-981d-1dda7b0128b9" />
    <img width="575" height="1280" alt="image" src="https://github.com/user-attachments/assets/2a80c3d4-20ba-4bd4-b408-852e427a2a0b" />
    <img width="1280" height="562" alt="image" src="https://github.com/user-attachments/assets/1ae1f3ca-722f-4cdd-8144-bb762919f072" />
 
 
-8. **Список до и после удаления элемента:**
+5. **Список до и после удаления элемента:**
    
    <img width="575" height="1280" alt="image" src="https://github.com/user-attachments/assets/d0641f9a-ce03-495c-b599-dcca293d586d" />
    <img width="1280" height="290" alt="image" src="https://github.com/user-attachments/assets/8c144228-5319-49a0-8327-03fe1fcc5897" />
